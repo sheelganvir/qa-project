@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Jenkins on Mac often can't find node/npm, so we add Homebrew's path
-        PATH = "/opt/homebrew/bin:/usr/local/bin:${env.PATH}"
+        PATH = "/Users/sheel/.nvm/versions/node/v24.22.0/bin/:${env.PATH}"
     }
 
     parameters {
